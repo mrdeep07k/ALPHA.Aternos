@@ -24,7 +24,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "YOUR_SERVER_AUTH_PASSWORD",
+      "password": "DEEPDEEP567^_^",
       "register-command": "/register {password} {password}",
       "login-command": "/login {password}"
     },
@@ -39,7 +39,7 @@
       "repeat": true,
       "repeat-delay": 300000,
       "messages": [
-        "I am ALPHA NIXUS The server MOD behalf of OWNER-->> MR.MALLICK"
+        "<< ALPHA_NIXUS >> I am ALPHA NIXUS, The Server MOD on behalf of OWNER ->> MR.MALLICK"
       ]
     },
 
@@ -89,12 +89,12 @@
   },
 
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1535792437690372186/GcfNbM6_YDMiriUJFR_Wyew-nqKUljsLsrNWApfW5aPIIOla00su0dt7JP_R0y7liULC",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
 
@@ -103,7 +103,7 @@
 
     "welcome-message": {
       "enabled": true,
-      "message": "MOST WELCOME TO THE SERVER OF ALPHA LEGIAN"
+      "message": "<< ALPHA LEGIAN >> MOST WELCOME, {player}! << ENJOY YOUR STAY >>"
     }
   }
 }
