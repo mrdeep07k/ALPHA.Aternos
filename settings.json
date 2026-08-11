@@ -1,62 +1,75 @@
 {
   "name": "AFK Bot",
+
   "bot-account": {
     "username": "ALPHA_NIXUS",
     "password": "",
     "type": "offline"
   },
+
   "server": {
-    "ip": "alphalegian.aternos.me",
+    "ip": "alphalegian.aternos.me:22845",
     "port": 22845,
     "version": "",
     "try-creative": false
   },
+
   "position": {
     "enabled": true,
     "x": 0,
     "y": 100,
     "z": 0
   },
+
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol8"
+      "password": "DEEPDEEP567^_^",
+      "register-command": "/register {password} {password}",
+      "login-command": "/login {password}"
     },
+
     "anti-afk": {
       "enabled": true,
       "sneak": true
     },
+
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 300000,
       "messages": [
-        "<< ALPHA_NIXUS >> I am ALPHA NIXUS, The Server MOD on behalf of OWNER ->>",
-        "<< ALPHA LEGIAN >> MOST WELCOME, {player}! << ENJOY YOUR STAY >>",
-        "<< ALPHA_NIXUS >> MOD"
+        "<< ALPHA_NIXUS >> I am ALPHA NIXUS, The Server MOD on behalf of OWNER ->> MR.MALLICK"
       ]
     },
+
     "chat-log": true,
+
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 120000
   },
+
   "movement": {
     "enabled": true,
+
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
+
     "look-around": {
       "enabled": true,
       "interval": 5000
     },
+
     "random-jump": {
       "enabled": true,
       "interval": 10000
     }
   },
+
   "modules": {
     "avoidMobs": true,
     "combat": true,
@@ -64,24 +77,33 @@
     "chat": true,
     "console-commands": true
   },
+
   "combat": {
     "attack-mobs": true,
     "auto-eat": true
   },
+
   "beds": {
     "pick-up-day": false,
     "place-night": false
   },
+
   "discord": {
-    "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/1535792437690372186/GcfNbM6_YDMiriUJFR_Wyew-nqKUljsLsrNWApfW5aPIIOla00su0dt7JP_R0y7liULC",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
+
   "chat": {
-    "respond": true
+    "respond": true,
+
+    "welcome-message": {
+      "enabled": true,
+      "message": "<< ALPHA LEGIAN >> MOST WELCOME, {player}! << ENJOY YOUR STAY >>"
+    }
   }
 }
