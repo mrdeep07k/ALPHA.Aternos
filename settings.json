@@ -8,7 +8,7 @@
   },
 
   "server": {
-    "ip": "alphalegian.aternos.me:22845",
+    "ip": "alphalegian.aternos.me",
     "port": 22845,
     "version": "",
     "try-creative": false
