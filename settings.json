@@ -3,14 +3,14 @@
 
   "bot-account": {
     "username": "ALPHA_NIXUS",
-    "password": "1.21",
+    "password": "",
     "type": "offline"
   },
 
   "server": {
     "ip": "alphalegian.aternos.me",
     "port": 22845,
-    "version": "",
+    "version": "1.21.1",
     "try-creative": false
   },
 
