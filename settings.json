@@ -35,8 +35,8 @@
     },
 
     "chat-messages": {
-      "enabled": false,
-      "repeat": false,
+      "enabled": true,
+      "repeat": true,
       "repeat-delay": 300000,
       "messages": [
         "<< ALPHA_NIXUS >> I am ALPHA NIXUS, The Server MOD on behalf of OWNER ->> MR.MALLICK"
