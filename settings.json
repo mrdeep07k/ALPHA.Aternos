@@ -10,7 +10,7 @@
   "server": {
     "ip": "alphalegian.aternos.me",
     "port": 22845,
-    "version": "1.21.1",
+    "version": "1.21",
     "try-creative": false
   },
 
