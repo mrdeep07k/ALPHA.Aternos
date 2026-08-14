@@ -35,19 +35,19 @@
     },
 
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
+      "enabled": false,
+      "repeat": false,
       "repeat-delay": 300000,
       "messages": [
         "<< ALPHA_NIXUS >> I am ALPHA NIXUS, The Server MOD on behalf of OWNER ->> MR.MALLICK"
       ]
     },
 
-    "chat-log": true,
+    "chat-log": false,
 
     "auto-reconnect": true,
     "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "max-reconnect-delay": 60000
   },
 
   "movement": {
@@ -66,12 +66,12 @@
 
     "random-jump": {
       "enabled": true,
-      "interval": 10000
+      "interval": 20000
     }
   },
 
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": true,
     "beds": false,
     "chat": true,
@@ -94,15 +94,15 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": true
+      "chat": false
     }
   },
 
   "chat": {
-    "respond": true,
+    "respond": false,
 
     "welcome-message": {
-      "enabled": true,
+      "enabled": false,
       "message": "<< ALPHA LEGIAN >> MOST WELCOME, {player}! << ENJOY YOUR STAY >>"
     }
   }
