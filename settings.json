@@ -2,7 +2,7 @@
   "name": "ALPHA NIXUS",
 
   "bot-account": {
-    "username": "ALPHA_NIXUS",
+    "username": "ALPHA_NIXUS1",
     "password": "",
     "type": "offline"
   },
@@ -46,8 +46,8 @@
     "chat-log": false,
 
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 60000
+    "auto-reconnect-delay": 60000,
+    "max-reconnect-delay": 120000
   },
 
   "movement": {
@@ -55,7 +55,7 @@
 
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 5,
       "speed": 3000
     },
 
